@@ -1,0 +1,7 @@
+print("This program computes the volume and the area of the side surface of the Rectangular parallelepiped")
+a, b, c = input("Enter the length of 3 sides").split()
+a = int(a)
+b = int(b)
+c = int(c)
+print("The volume is ", a * b * c)
+print("The area of the side surface is ", 2 * c * (a + b))
